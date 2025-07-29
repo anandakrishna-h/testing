@@ -1,0 +1,8 @@
+diff --git a/example.js b/example.js
+new file mode 100644
+index 0000000..89e6f9a
+--- /dev/null
++++ b/example.js
+@@ -0,0 +1 @@
++console.log("Updated code");
+\ No newline at end of file

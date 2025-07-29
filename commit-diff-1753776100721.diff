@@ -1,0 +1,9 @@
+diff --git a/example.js b/example.js
+index de2fa30..17a9326 100644
+--- a/example.js
++++ b/example.js
+@@ -1 +1 @@
+-console.log("ohmygod");
+\ No newline at end of file
++console.log("babababababa");
+\ No newline at end of file

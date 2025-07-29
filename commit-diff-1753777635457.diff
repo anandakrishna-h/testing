@@ -1,0 +1,33 @@
+diff --git a/App.jsx b/App.jsx
+new file mode 100644
+index 0000000..6131aca
+--- /dev/null
++++ b/App.jsx
+@@ -0,0 +1,8 @@
++import React from 'react';
++import Button from './components/Button';
++
++function App() {
++  return <Button label="Click Me" onClick={() => alert('Clicked!')} />;
++}
++
++export default App;
+\ No newline at end of file
+diff --git a/Button.jsx b/Button.jsx
+new file mode 100644
+index 0000000..3272035
+--- /dev/null
++++ b/Button.jsx
+@@ -0,0 +1,11 @@
++import React from 'react';
++
++const Button = ({ label, onClick }) => {
++  return (
++    <button onClick={onClick} className="px-4 py-2 bg-blue-500 text-white rounded">
++      {label}
++    </button>
++  );
++};
++
++export default Button;
+\ No newline at end of file
