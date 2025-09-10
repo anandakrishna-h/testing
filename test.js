@@ -1,5 +1,5 @@
 // Log a greeting message to the console.
-// Changed the function name to logHello for better clarity.
-const logHello = () => {
+// Changed the function name to printGreeting for better clarity.
+const printGreeting = () => {
   console.log("hello");
 };
