@@ -1,6 +1,6 @@
-// Log a greeting message to the console.
-// Changed the function name to sayHello for better clarity.
-const sayHello = () => {
+/**
+ * Logs a greeting message to the console.
+ */
+const greetUser = function sayHello() {
   console.log("hello");
-  return;
 };
