@@ -1,6 +1,6 @@
 /**
  * Logs a greeting message to the console.
  */
-const greetUser = function sayHello() {
+const greetUser = function logGreeting() {
   console.log("hello");
 };
