@@ -1,10 +1,7 @@
 /**
  * Logs a greeting message to the console.
  */
-const greetUser = function logGreeting(name) {
-  if (!name) {
-    console.log("hello");
-  } else {
-    console.log("hello, " + name);
-  }
+const greetUserByName = function(name) {
+  const greetingMessage = !name ? "hello" : "hello, " + name;
+  console.log(greetingMessage);
 };
